@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Receitas - Zero Desperdício</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="imagens/Imagem.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <img src="imagens/Imagem.png" alt="Logo" class="logo">
+                </div>
+                <div class="col-8 text-center">
+                    <nav class="nav justify-content-center">
+                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="buscar.html" class="nav-link">Buscar Receitas</a>
+                        <a href="login.html" class="nav-link">Login</a>
+                    </nav>
+                </div>
+                <div class="col-2 text-right">
+                    <i class="fas fa-user-circle user-icon"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center header-content">
+                    <h1>Zero Desperdício</h1>
+                    <p>Descubra Receitas com o que Você Já Tem em Casa!</p>
+                 
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2 class="text-center mb-4" style="color: #42591E;">Digite os Ingredientes</h2>
+        <div class="input-group mb-3">
+            <input type="text" id="ingredientes" class="form-control" placeholder="Ex: tomate, cebola, alho" aria-label="Ingredientes">
+            <button class="btn btn-primary" style="background-color: #D96B0B; border-color: #D96B0B;" onclick="buscarReceitas()">Buscar Receitas</button>
+        </div>
+        <p id="erro" class="text-danger text-center"></p>
+        <section id="receitas-container" class="row mt-5">
+
+
+            <!-- Receitas aparecerão aqui -->
+
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Zero Desperdício. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

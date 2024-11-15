@@ -1,0 +1,51 @@
+.header {
+    background-image: url('imagens/fundo-header.webp'); /* Troque pela imagem de fundo correta */
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.logo {
+    max-width: 80px;
+}
+
+.nav .nav-link {
+    margin: 0 15px;
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.nav .nav-link:hover {
+    color: #F2C791; /* Cor de destaque ao passar o mouse */
+}
+
+.user-icon {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.header-content p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.btn-highlight {
+    background-color: #BF0606;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.btn-highlight:hover {
+    background-color: #D96B0B;
+    color: #fff;
+}

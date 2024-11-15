@@ -1,0 +1,99 @@
+:root {
+    --bg-color: #F2C791;
+    --primary-color: #42591E;
+    --accent-color: #D96B0B;
+    --highlight-color: #590202;
+    --footer-color: #BF0606;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+.navbar {
+    background-color: var(--highlight-color);
+}
+
+.navbar-brand, .nav-link {
+    color: var(--bg-color) !important;
+}
+
+.nav-link:hover {
+    color: var(--accent-color) !important;
+}
+
+header {
+    background-color: var(--highlight-color);
+    color: white;
+    padding: 20px;
+}
+
+.bem-vindo h2 {
+    color: var(--primary-color);
+}
+
+.bem-vindo p {
+    color: var(--highlight-color);
+}
+
+
+.btn-highlight {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    border: none;
+}
+
+.btn-highlight:hover {
+    background-color: var(--footer-color);
+    color: var(--bg-color);
+}
+
+.como-funciona {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.steps .step i {
+    color: var(--bg-color);
+}
+
+.steps .step p {
+    color: var(--bg-color);
+}
+
+.receitas-populares h2 {
+    color: var(--highlight-color);
+}
+
+.card {
+    background-color: var(--bg-color);
+    border: none;
+}
+
+.card-title {
+    color: var(--primary-color);
+}
+
+.btn-primary {
+    background-color: var(--accent-color);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--footer-color);
+}
+
+footer {
+    background-color: var(--footer-color);
+    color: var(--bg-color);
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+div.card-body{
+    background-color: var(--accent-color);
+}

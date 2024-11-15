@@ -1,0 +1,16 @@
+
+body {
+    background-color: #800000; /* Combina com o tema do site */
+    color: white;
+}
+.card {
+    background-color: #fff;
+    color: #000;
+}
+.btn-custom {
+    background-color: #800000;
+    color: white;
+}
+.btn-custom:hover {
+    background-color: #a00000;
+}
